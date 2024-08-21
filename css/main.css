@@ -1,0 +1,199 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+nav {
+    margin: 4em;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 4.1rem;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    position: relative;
+}
+
+nav ul li a.active:before {
+    position: absolute;
+    content: "";
+    width: 35%;
+    height: 1px;
+    border-bottom: 2px solid black;
+    bottom: -6px;
+}
+
+/*Hero section*/
+main {
+    display: flex;
+    gap: 8em;
+    margin-top: 11em;
+    height: 50em; /**added by me **/
+}
+
+.left-col {
+    width: 45%;
+
+}
+
+.right-col {
+    flex-grow: 1;
+}
+
+
+
+h1 {
+    font-size: 5.2rem;
+    font-family: 'Playfair Display';
+    font-weight: normal;
+    margin: 0;
+}
+
+
+.subhead {
+    font-size: 1.8rem;
+}
+
+.cta-btns {
+    display: flex;
+    gap: 6em;
+    margin: 5em 0;
+}
+
+.primary-cta {
+    background-color: #F1E2D1;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    border-radius: 1.9em;
+    padding: 1em 2em;
+}
+
+.secondary-cta {
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: black;
+    padding: 1em 0;
+}
+
+/*Right coloumn*/
+
+.right-col {
+    display: grid;
+    gap: 2.3em;
+    grid-template-columns: auto auto;
+    grid-template-areas: 
+        "left right"
+        "left bottom";
+
+}
+
+.card {
+    border-radius: .8em;
+    padding: 1.1em;
+    display: flex;
+    align-items: end;
+}
+
+.card1 {
+    grid-area: left;
+    background-image: url("../images/Good-Friday_Story_BLNK-1000x1778.jpg");
+    background-size: 300px;
+}
+
+.card2 {
+    background-image: url("../images/characters.jpeg");
+    background-size: 300px;
+}
+
+.card3 {
+    background-image: url("../images/themes.jpeg");
+    background-size: 300px;
+}
+
+.card-details {
+    background: white;
+    border-radius: .6em;
+    padding: 2em;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.card-details a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.card-details p {
+    font-size: 1.4rem;
+    margin: 0;
+}
+
+@media(max-width: 850px) {
+    main {
+        display: grid;
+        margin-top: 6em;
+    }
+
+    .cta-btns {
+        display: flex;
+        margin: auto;
+    }
+    
+
+    .left-col {
+        width: 100%;
+        margin-left: 5%;
+    }
+
+    .left-col p {
+        width: 80%;
+    }
+
+    .right-col {
+        width: 100%;
+        margin: auto;
+        height: 50em;
+    }
+
+    .mobile-hide {
+        display: none;
+    }
+
+}
