@@ -82,6 +82,7 @@ h1 {
 main ul {
     list-style-type: none;
     margin: 0;
+    padding: 0px;
     
 }
 main ul li a {

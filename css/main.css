@@ -10,6 +10,10 @@ body {
 .wrapper {
     max-width: 1200px;
     margin: 0 auto;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 5rem;
+
 }
 
 header {
@@ -28,6 +32,7 @@ header {
 
 nav {
     margin: 4em;
+
 }
 
 nav ul {
@@ -60,6 +65,7 @@ main {
     gap: 8em;
     margin-top: 11em;
     height: 50em; /**added by me **/
+
 }
 
 .left-col {
@@ -174,12 +180,14 @@ h1 {
     .cta-btns {
         display: flex;
         margin: auto;
+
     }
     
 
     .left-col {
         width: 100%;
-        margin-left: 5%;
+        /*margin-left: 5%;*/
+
     }
 
     .left-col p {
@@ -194,6 +202,10 @@ h1 {
 
     .mobile-hide {
         display: none;
+    }
+
+    .card-details a {
+        font-size: 1.3rem;
     }
 
 }
