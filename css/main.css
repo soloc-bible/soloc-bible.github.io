@@ -136,17 +136,17 @@ h1 {
 .card1 {
     grid-area: left;
     background-image: url("../images/Good-Friday_Story_BLNK-1000x1778.jpg");
-    background-size: 300px;
+    background-size: cover;
 }
 
 .card2 {
     background-image: url("../images/characters.jpeg");
-    background-size: 300px;
+    background-size: cover;
 }
 
 .card3 {
     background-image: url("../images/themes.jpeg");
-    background-size: 300px;
+    background-size: cover;
 }
 
 .card-details {
@@ -156,6 +156,7 @@ h1 {
     width: 100%;
     align-items: center;
     justify-content: space-between;
+
 
 }
 
@@ -167,6 +168,7 @@ h1 {
 }
 
 .card-details p {
+    color: black;
     font-size: 1.4rem;
     margin: 0;
 }
@@ -198,6 +200,22 @@ h1 {
         width: 100%;
         margin: auto;
         height: 50em;
+        grid-template-areas: 
+        "top top"
+        "left right";
+        gap: 1.2em;
+    }
+
+    .card2 {
+        grid-area: top;
+    }
+    .card3 {
+        grid-area: right;
+
+    }
+    .card1 {
+        grid-area: left;
+  
     }
 
     .mobile-hide {
