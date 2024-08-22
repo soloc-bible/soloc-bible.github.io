@@ -10,9 +10,9 @@ body {
 .wrapper {
     max-width: 1200px;
     margin: 0 auto;
-    padding-left: 5rem;
-    padding-right: 5rem;
-    padding-bottom: 5rem;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
 
 }
 

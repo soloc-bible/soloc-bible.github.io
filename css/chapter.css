@@ -10,6 +10,8 @@ body {
 .wrapper {
     max-width: 1200px;
     margin: 0 auto;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 header {
@@ -93,5 +95,18 @@ main ul li a {
 
 }
 
+.chapter-list li{
+    padding-bottom: 1rem;
+}
+
+.non {
+    pointer-events: none;
+}
+
+/*On mobile phone*/
 
 
+@media(max-width: 850px) {
+    
+ 
+}
