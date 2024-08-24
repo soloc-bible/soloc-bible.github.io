@@ -134,17 +134,20 @@ h1 {
 }
 
 .card1 {
+    position: relative;
     grid-area: left;
     background-image: url("../images/Good-Friday_Story_BLNK-1000x1778.jpg");
     background-size: cover;
 }
 
 .card2 {
+    position: relative;
     background-image: url("../images/characters.jpeg");
     background-size: cover;
 }
 
 .card3 {
+    position: relative;
     background-image: url("../images/themes.jpeg");
     background-size: cover;
 }
@@ -173,10 +176,31 @@ h1 {
     margin: 0;
 }
 
+span { 
+  position:absolute; 
+  width:100%;
+  height:100%;
+  top:0;
+  left: 0;
+
+  z-index: 1;
+
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 30%;;
+    color: black;
+  }
+
+/*MOBILE PHONE ASPECT */
+/*--------------------*/
 @media(max-width: 850px) {
     main {
         display: grid;
         margin-top: 6em;
+        height: 100%;
     }
 
     .cta-btns {
@@ -209,6 +233,10 @@ h1 {
     .card2 {
         grid-area: top;
     }
+    .card2 .card-details {
+        width: 35%;
+    }
+
     .card3 {
         grid-area: right;
 
@@ -225,5 +253,7 @@ h1 {
     .card-details a {
         font-size: 1.3rem;
     }
+
+
 
 }

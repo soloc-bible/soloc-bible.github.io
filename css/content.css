@@ -63,6 +63,8 @@ main {
     gap: 6em;
     margin-top: 7em;
     height: 50em; /**added by me **/
+    padding: 5%;
+
 }
 
 .main-wrapper {
@@ -106,8 +108,7 @@ main ul li a {
 
 
 @media (max-width: 1000px) {
-    body {
-    }
+
     main {
         display: grid;
         gap: 0em;
