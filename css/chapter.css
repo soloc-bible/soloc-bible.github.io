@@ -95,12 +95,15 @@ main ul li a {
 
 }
 
+
+
 .chapter-list li{
     padding-bottom: 1rem;
 }
 
 .non {
     pointer-events: none;
+    color: grey;
 }
 
 /*On mobile phone*/
