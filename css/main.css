@@ -64,6 +64,7 @@ main {
     display: flex;
     gap: 8em;
     margin-top: 11em;
+    margin-bottom: 11em;
     height: 50em; /**added by me **/
 
 }
@@ -193,6 +194,23 @@ footer {
     margin-top: 30%;;
     color: black;
   }
+
+/*Question section*/
+section h2 {
+    font-size: 2em;
+}
+
+section .ques-title {
+    font-size: 1.5em;
+}
+section .quest-list {
+    font-size: 1.5em;
+}
+
+section ol li {
+    margin-bottom: 1em;
+}
+
 
 /*MOBILE PHONE ASPECT */
 /*--------------------*/
