@@ -213,6 +213,13 @@ section ol li {
 }
 
 
+
+.quest-list img {
+    transform: translate(-4rem, 6rem);
+
+}
+
+
 /*MOBILE PHONE ASPECT */
 /*--------------------*/
 @media(max-width: 850px) {
@@ -274,5 +281,5 @@ section ol li {
     }
 
 
-
+  
 }
