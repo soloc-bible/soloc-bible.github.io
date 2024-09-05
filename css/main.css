@@ -280,6 +280,10 @@ section ol li {
         font-size: 1.3rem;
     }
 
+    .quest-list img {
+        transform: translate(-4rem, 7rem);
+    
+    }
 
   
 }
