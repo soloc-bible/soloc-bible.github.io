@@ -196,6 +196,7 @@ footer {
   }
 
 /*Question section*/
+
 section h2 {
     font-size: 2em;
 }
@@ -208,7 +209,7 @@ section .quest-list {
 }
 
 section ol li {
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
 }
 
 
