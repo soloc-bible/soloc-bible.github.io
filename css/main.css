@@ -201,6 +201,10 @@ section h2 {
     font-size: 2em;
 }
 
+section ol {
+
+}
+
 section .ques-title {
     font-size: 1.5em;
 }
@@ -213,9 +217,12 @@ section ol li {
 }
 
 
-
+.quest-list .curr_ques {
+    margin:0;
+    height: 0;
+}
 .quest-list img {
-    transform: translate(-4rem, 6rem);
+    transform: translate(-4rem, 3rem);
 
 }
 
@@ -281,7 +288,7 @@ section ol li {
     }
 
     .quest-list img {
-        transform: translate(-4rem, 7rem);
+        transform: translate(-4rem, 5rem);
     
     }
 
