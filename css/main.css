@@ -221,8 +221,14 @@ section ol li {
     margin:0;
     height: 0;
 }
+
+
+
+
+
+
 .quest-list img {
-    transform: translate(-4rem, 4rem);
+    transform: translate(-4rem, 22rem);
 
 }
 
@@ -288,7 +294,7 @@ section ol li {
     }
 
     .quest-list img {
-        transform: translate(-4rem, 4rem);
+        transform: translate(-4rem, 56rem);
     
     }
 
